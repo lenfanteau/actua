@@ -1,0 +1,40 @@
+{
+  "sourceCommit": "07000d989005ed9450bf0cd7ce39ff27b54b73b2",
+  "applicationVersion": "1.4.0",
+  "files": {
+    "assets/icon.svg": "e0b1353b0f4fe4b3e733a44aa9b3b6604ea22c739902aba9317da59476991795",
+    "assets/images/bleeding.webp": "76f65bd1f6d0bd683695d6fede28f7bfcd14ad8e620064a64a7bb556cb2b80f7",
+    "assets/images/burns.webp": "b418d498b10930df0850d8d02ee45a8566489b0e2574e0317f42520b4364c33a",
+    "assets/images/choking.webp": "4ae98077e6cba762e26843dc43d109f596f4e3704d25d3655f0ffd358f343a44",
+    "assets/images/court-collapse.webp": "5715d221aeb266adb8ef0c464bb331e2319eacb4312e3a6774ce56f3293b3e03",
+    "assets/images/drill.webp": "654aaf936cc9b126eb11262d9c385c9fbf679793e9b94e3947cd02be45125427",
+    "assets/images/fainting.webp": "ebeec2e786d28d9f3853132779a85e7f4eb98e07f41348daedadfa6ee1069617",
+    "assets/images/falls.webp": "8e6c210efecd5ecf0d6fd4c33e5ddc41987cad11d249f4984a4354bf4badacd3",
+    "assets/images/hero.webp": "c850d9cc32b089676666b9b52f715651aaecc5f859c0be750a986b758af3ac35",
+    "assets/images/preparedness.webp": "c6477bf33a1e5e9fa9db87af6e6d323141c84c8506695187068c67bc8390c5b7",
+    "assets/images/training.webp": "505b19598414b3043103c6e5c244ab9559aa20ed1592e1ac6e4454d001b2560d",
+    "fresh.css": "4ca94fc719bef2922f37408d4b0cf7a253967eef50da432343d3bc7eef66743f",
+    "index.html": "d0beb7dbcad7abefeaa6631f84bf1c2d7f25bb98b60a8e31a2bdc4dff06012ef",
+    "manifest.webmanifest": "afcff4c341c1e17ecf91b611d78863150625b2d33c8ae5d43c580b380d204f78",
+    "motion.css": "3f093c1556697d9fadff23d58749f9908083bc71d67101876c66d166e3eb5f1d",
+    "src/data/challenges.js": "3f28c684c99f94f52e18f44f2f5b129ff4dc48a237329b8ee070a6d7c1addeb0",
+    "src/data/content.js": "43d84498d8a6ffb949356ab0c9b67cd371fc7f9395e78b9987f7900f4d98a90b",
+    "src/data/emergencies.js": "ac781371d9efa892ab1ce5947843ab043f12d70bfeee4d7e9798a13f3a8df22b",
+    "src/data/scenarios.js": "266f0903bfb0897f58304a0a53c3615112f1d95a1bc793ed48438cf42d257c85",
+    "src/data/sources.js": "9bc4511cc721f113c4a4cffe9c4bac813666a9475f26722fe2fbd749ac6e14c1",
+    "src/discovery.js": "623b3f93479117e95dcd2daa4f0018cf8f831e4765fbdc109f822fe604a5aa5d",
+    "src/encouragement.js": "b67ceb029b24c9bfd93fc8e68b5ade840a7de0dd313fa022bd63670d8b54b144",
+    "src/engine.js": "76b99a29ad3e7e415327feb7dc22538fbf199daeb1f4fe0d49df9f7b765f7d53",
+    "src/illustrations.js": "0405f86a33fa5a32a9352acabd2a20205308f43c7d5413a991eb7489aa769ddb",
+    "src/main.js": "11de47c8330c4b665e0aa32970fb7a6e20d670c0a839acfb646315e596e89701",
+    "src/media.js": "cc59d9e89881f7e6a03753aacaf67dada77917591e292319763390a868104f43",
+    "src/motion.js": "6da1cdad7c1370ed7fd1822fd1565aa03f99526edbf50f4522be9063c99b78dc",
+    "src/order.js": "e06799f5b6fe4475d1c2dc92a21f3a4ab8e6b36a651a078e97eb138b5d3be94b",
+    "styles.css": "276f51ea4f979e86ad632c5bb0e4b8d2762e25f8a27bc969c9113e8573e85204",
+    "sw.js": "165fb2d13021b75d8b28f6bcf664390659a95b396ba871986b53297b6bb48cab",
+    "theme.css": "b62b40dc019d6ffdf8177bd3bf729efdad01e18c0f942f39ca0d4d0161e62b56"
+  },
+  "generatedExceptions": [
+    "sw.js"
+  ]
+}

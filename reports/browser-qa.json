@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-24",
+  "origin": "http://127.0.0.1:4190/actua/",
+  "qa": [
+    {
+      "test": "deporte: error, repaso y final",
+      "passed": true
+    },
+    {
+      "test": "simulacion comedor",
+      "passed": true
+    },
+    {
+      "test": "simulacion cocina",
+      "passed": true
+    },
+    {
+      "test": "simulacion escolar",
+      "passed": true
+    },
+    {
+      "test": "simulacion herida",
+      "passed": true
+    },
+    {
+      "test": "simulacion preparar",
+      "passed": true
+    },
+    {
+      "test": "evaluacion simulacros 4/4",
+      "passed": true
+    },
+    {
+      "test": "8 evaluaciones completadas, 32 respuestas, 6 casos; persiste tras recarga",
+      "passed": true
+    },
+    {
+      "test": "checklist escolar 7/7 persistente tras recarga",
+      "passed": true
+    },
+    {
+      "test": "8 números distintos con enlaces tel; sin realizar llamadas",
+      "passed": true,
+      "numbers": [
+        "tel:106",
+        "tel:116",
+        "tel:105",
+        "tel:110",
+        "tel:115",
+        "tel:118",
+        "tel:100",
+        "tel:113"
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "route": "inicio",
+      "brokenImages": 0,
+      "heading": "Un poco de preparación.Una gran diferencia.",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "aprende",
+      "brokenImages": 0,
+      "heading": "Aprende, paso a paso.",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "simulador",
+      "brokenImages": 0,
+      "heading": "Una situación. Varias decisiones.",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "leccion/rcp",
+      "brokenImages": 0,
+      "heading": "RCP y DEA",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "contactos",
+      "brokenImages": 0,
+      "heading": "Emergencias Perú.",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "preparacion",
+      "brokenImages": 0,
+      "heading": "Prepararse es un trabajo en equipo.",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "progreso",
+      "brokenImages": 0,
+      "heading": "Cada actividad cuenta.",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "fuentes",
+      "brokenImages": 0,
+      "heading": "Fuentes y rigor científico.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "inicio",
+      "brokenImages": 0,
+      "heading": "Un poco de preparación.Una gran diferencia.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "aprende",
+      "brokenImages": 0,
+      "heading": "Aprende, paso a paso.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "simulador",
+      "brokenImages": 0,
+      "heading": "Una situación. Varias decisiones.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "leccion/rcp",
+      "brokenImages": 0,
+      "heading": "RCP y DEA",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "contactos",
+      "brokenImages": 0,
+      "heading": "Emergencias Perú.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "preparacion",
+      "brokenImages": 0,
+      "heading": "Prepararse es un trabajo en equipo.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "progreso",
+      "brokenImages": 0,
+      "heading": "Cada actividad cuenta.",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "fuentes",
+      "brokenImages": 0,
+      "heading": "Fuentes y rigor científico.",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "inicio",
+      "brokenImages": 0,
+      "heading": "Un poco de preparación.Una gran diferencia.",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "aprende",
+      "brokenImages": 0,
+      "heading": "Aprende, paso a paso.",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "simulador",
+      "brokenImages": 0,
+      "heading": "Una situación. Varias decisiones.",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "leccion/rcp",
+      "brokenImages": 0,
+      "heading": "RCP y DEA",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "contactos",
+      "brokenImages": 0,
+      "heading": "Emergencias Perú.",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "preparacion",
+      "brokenImages": 0,
+      "heading": "Prepararse es un trabajo en equipo.",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "progreso",
+      "brokenImages": 0,
+      "heading": "Cada actividad cuenta.",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "fuentes",
+      "brokenImages": 0,
+      "heading": "Fuentes y rigor científico.",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "inicio",
+      "brokenImages": 0,
+      "heading": "Un poco de preparación.Una gran diferencia.",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "aprende",
+      "brokenImages": 0,
+      "heading": "Aprende, paso a paso.",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "simulador",
+      "brokenImages": 0,
+      "heading": "Una situación. Varias decisiones.",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "leccion/rcp",
+      "brokenImages": 0,
+      "heading": "RCP y DEA",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "contactos",
+      "brokenImages": 0,
+      "heading": "Emergencias Perú.",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "preparacion",
+      "brokenImages": 0,
+      "heading": "Prepararse es un trabajo en equipo.",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "progreso",
+      "brokenImages": 0,
+      "heading": "Cada actividad cuenta.",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "fuentes",
+      "brokenImages": 0,
+      "heading": "Fuentes y rigor científico.",
+      "overflow": false
+    }
+  ],
+  "logs": [],
+  "limits": [
+    "Tamaños simulados en navegador; sin teléfono físico",
+    "GitHub Actions y URL pública pendientes de autorización",
+    "Offline completo no ensayado; aislamiento de caché cubierto por pruebas automatizadas"
+  ]
+}

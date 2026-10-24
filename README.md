@@ -62,4 +62,3 @@ Editar los archivos fuente dentro de `dist/`, ejecutar compilación y pruebas, r
 Ver [auditoría técnica](docs/MIGRACION.md), [pruebas del navegador](reports/browser-qa.json), [pruebas automatizadas](reports/automated-tests.txt) e [integridad del original](reports/integrity.txt).
 
 Documentación oficial: [workflow de Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) y [configurar el origen de publicación](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-

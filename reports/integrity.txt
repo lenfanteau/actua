@@ -1,0 +1,1 @@
+Integridad de migración: 30/30 archivos de contenido, lógica, interfaz y recursos idénticos al original 07000d989005ed9450bf0cd7ce39ff27b54b73b2. Solo sw.js se regenera para aislar la caché por ruta.

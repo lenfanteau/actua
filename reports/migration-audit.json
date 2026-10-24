@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-24",
+  "status": "prepared_not_published",
+  "applicationVersion": "1.4.0",
+  "sourceCommit": "07000d989005ed9450bf0cd7ce39ff27b54b73b2",
+  "framework": "native HTML, CSS and JavaScript ES modules",
+  "runtimeDependencies": [],
+  "backendRequired": false,
+  "privateSitesRuntimeRequired": false,
+  "proposedRepository": "lenfanteau/actua",
+  "proposedVisibility": "public",
+  "expectedUrl": "https://lenfanteau.github.io/actua/",
+  "remoteConfigured": false,
+  "githubRepositoryCreated": false,
+  "githubPagesSettingsChanged": false,
+  "githubWorkflowExecuted": false,
+  "originalSitesModified": false,
+  "automatedTests": {"passed": 54, "failed": 0},
+  "originalPublicFilesUnchanged": 30,
+  "generatedException": "dist/sw.js",
+  "basicCredentialPatternScan": {"textFiles": 45, "matches": 0, "formalSecurityAudit": false},
+  "browserEvidence": "browser-qa.json",
+  "responsiveWidths": [320, 390, 768, 1280],
+  "limitations": [
+    "Publication requires user authorization",
+    "Public URL and workflow require post-publication verification",
+    "Responsive browser emulation; no physical phone tested",
+    "No complete browser offline session tested; service worker logic has automated tests",
+    "Old-domain localStorage does not transfer automatically; JSON export exists, import does not"
+  ]
+}
