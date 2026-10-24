@@ -1,6 +1,6 @@
 # Auditoría de migración — 2026-10-24
 
-Estado: preparado localmente, sin publicación ni cambios en configuración externa. Cuenta consultada en modo lectura: `lenfanteau`. No se encontró un repositorio `lenfanteau/actua` accesible mediante la conexión (respuesta 404); esto no garantiza disponibilidad del nombre si existe uno privado fuera del acceso de la conexión.
+Estado actualizado: publicado con autorización del usuario el 24 de octubre de 2026 en https://lenfanteau.github.io/actua/ . Repositorio público: https://github.com/lenfanteau/actua . Pages configurado para GitHub Actions y HTTPS obligatorio. La cuenta `lenfanteau` se verificó antes de crear el repositorio. La versión original de Sites no se modificó.
 
 ## Origen e integridad
 
@@ -34,9 +34,13 @@ En navegador: ocho evaluaciones finalizadas con 32 respuestas; seis simulaciones
 
 Los informes y las pruebas no validan profesionalmente procedimientos médicos ni cambian las afirmaciones educativas del original. La migración no alteró información médica.
 
-## Pendientes de autorización y verificación posterior
+## Publicación y límites pendientes
 
-Crear/subir repositorio público, activar Pages y ejecutar el workflow en GitHub. Después comprobar la URL real, HTTPS, instalación/caché y funcionamiento en un teléfono físico. El workflow está preparado, pero no se ha ejecutado en GitHub. La lógica de caché tiene pruebas automatizadas; no se hizo un ensayo completo de desconexión de red en navegador.
+Repositorio creado, código subido y Pages activado. El primer workflow https://github.com/lenfanteau/actua/actions/runs/40071136401 terminó con `build` y `deploy` aprobados, incluidas 54 pruebas. Commit de aplicación publicado: `7dba40710edb703a9ce59887e40f282af583ace0`.
+
+Se recibieron por HTTPS los 30 archivos públicos originales con huellas SHA-256 idénticas. En la URL real se completó una evaluación de RCP, una simulación de hemorragias con error y repaso, y se verificó progreso tras recargar; se revisaron 32 vistas adaptables, sin errores de consola. Evidencias nuevas: `../reports/publication.json`, `../reports/live-asset-integrity.json` y `../reports/live-browser-qa.json`. El informe `migration-audit.json` conserva el estado histórico previo a la autorización.
+
+Quedan como límites de verificación la prueba en un teléfono físico, la instalación y una sesión completa sin conexión. La lógica de caché tiene pruebas automatizadas. La segunda actualización de documentación también pasa por el mismo workflow, demostrando el mecanismo de futuras actualizaciones. Se normalizan finales de línea únicamente en archivos de desarrollo/documentación para respetar `.gitattributes`; `dist/` conserva exactamente los bytes originales, salvo el service worker generado.
 
 No se necesita alternativa de backend para esta versión. Añadir sincronización, acceso de alumnos o datos centralizados sería un proyecto adicional con decisiones de privacidad, almacenamiento y costos que hoy no aplican.
 

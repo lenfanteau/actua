@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-24",
+  "status": "published",
+  "authorizedByUser": true,
+  "url": "https://lenfanteau.github.io/actua/",
+  "repository": "https://github.com/lenfanteau/actua",
+  "visibility": "public",
+  "branch": "main",
+  "pagesSource": "GitHub Actions",
+  "httpsEnforced": true,
+  "applicationCommit": "7dba40710edb703a9ce59887e40f282af583ace0",
+  "firstRun": "https://github.com/lenfanteau/actua/actions/runs/40071136401",
+  "build": "success",
+  "deploy": "success",
+  "automatedTests": {"passed": 54, "failed": 0},
+  "originalAssetsReceivedOverHttpsIdentical": 30,
+  "publicBrowserQa": "live-browser-qa.json",
+  "liveAssetIntegrity": "live-asset-integrity.json",
+  "originalSitesModified": false,
+  "pendingVerification": ["Physical phone", "PWA installation", "Complete offline browser session"]
+}

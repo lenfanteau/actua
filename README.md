@@ -1,6 +1,14 @@
 # ACTÚA — GitHub Pages
 
-Versión 1.4.0 preparada el 24 de octubre de 2026. Código original reutilizado; publicación pendiente de autorización. El sitio actual de Sites no se ha modificado.
+Versión 1.4.0 publicada el 24 de octubre de 2026. Código original reutilizado. El sitio anterior de Sites no se ha modificado.
+
+**Aplicación:** https://lenfanteau.github.io/actua/
+
+**Repositorio público:** https://github.com/lenfanteau/actua
+
+**Primera publicación comprobada:** https://github.com/lenfanteau/actua/actions/runs/40071136401
+
+Las 54 pruebas pasaron en GitHub Actions. Se comprobaron evaluación, simulación, progreso tras recarga y 32 vistas adaptables en la URL publicada. Los 30 archivos originales de contenido, lógica, interfaz e imágenes se recibieron por HTTPS con huellas idénticas. Ver `reports/publication.json`, `reports/live-browser-qa.json` y `reports/live-asset-integrity.json`.
 
 ## Ejecutar en tu computadora
 
@@ -20,14 +28,14 @@ Abre http://127.0.0.1:4173/actua/ . Para detener la vista previa, Ctrl+C. Si el 
 
 También están disponibles `npm run build`, `npm test`, `npm run check:pages` y `npm run start:pages`. No se necesita `npm install`.
 
-## Publicar, después de la autorización
+## Configuración de publicación
 
-Destino propuesto: repositorio **público** `lenfanteau/actua`. Su código, imágenes y documentación serán visibles. URL esperada: https://lenfanteau.github.io/actua/ . Esta dirección no se presenta como publicada.
+El repositorio **público** `lenfanteau/actua` ya está creado y Pages usa **GitHub Actions**, con HTTPS obligatorio. Su código, imágenes y documentación son visibles. Las instrucciones siguientes son una referencia para una instalación nueva; no vuelvas a crear el repositorio existente.
 
 1. Crear un repositorio vacío llamado `actua` en la cuenta autorizada, sin añadir archivos iniciales.
 2. Desde esta carpeta, revisar `git status`, crear el primer commit y conectar exclusivamente este repositorio independiente:
 
-La carpeta de trabajo ya tiene Git inicializado en `main`, sin remoto. Si descomprimiste el ZIP, que no incluye metadatos Git, ejecuta primero `git init --initial-branch=main`.
+La carpeta de trabajo está conectada a `origin` y sigue `main`. Para trabajar desde otro equipo, se recomienda `git clone https://github.com/lenfanteau/actua.git`. El ZIP no incluye metadatos Git; para una instalación nueva en otro repositorio, inicializa Git antes de configurar su remoto.
 
 ```powershell
 git add .
@@ -47,6 +55,14 @@ El workflow comprueba sintaxis, ejecuta las 54 pruebas y audita los archivos ant
 ## Actualizar
 
 Editar los archivos fuente dentro de `dist/`, ejecutar compilación y pruebas, revisar los cambios y enviarlos a `main`. GitHub Actions publicará automáticamente la versión que pase los controles. `dist/sw.js` se genera durante la compilación y no se edita ni se versiona manualmente.
+
+En una copia clonada, después de revisar y comprobar los cambios:
+
+```powershell
+git add .
+git commit -m "Describir la actualización de ACTÚA"
+git push origin main
+```
 
 `verify:migration` demuestra la igualdad con el original en esta entrega. No forma parte del workflow: una actualización legítima del contenido debe poder cambiar sus huellas. Conservar el informe original como evidencia, no sobrescribirlo para ocultar diferencias.
 
